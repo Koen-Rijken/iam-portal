@@ -164,17 +164,17 @@ const HomePage: React.FC = () => {
               </div>
             </div>
 
-            {/* Open Source */}
-            <div className="relative group">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <div className="relative bg-white dark:bg-gray-800 px-5 py-6 rounded-lg leading-none flex items-center justify-center flex-col">
+            {/* Open Source 
+                <div className="relative group">
+                  <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                  <div className="relative bg-white dark:bg-gray-800 px-5 py-6 rounded-lg leading-none flex items-center justify-center flex-col">
                 <Github className="h-8 w-8 text-blue-600 dark:text-blue-400 mb-4" />
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">OPEN SOURCE</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm text-center">
                   Transparent, community-driven development you can trust.
                 </p>
-              </div>
-            </div>
+                  </div>
+                </div> */}
           </div>
         </div>
       </div>
