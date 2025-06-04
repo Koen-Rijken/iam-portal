@@ -37,6 +37,19 @@ export const DemosPage: React.FC = () => {
       featured: true,
       dateAdded: '19-3-25',
     },
+    {
+      id: 3,
+      title: 'I-AM Authentication with Biometrics',
+      description: "Experience true passwordless authentication with biometric verification. Since you requested Demo Access you are authorised to access the application.",
+      tags: ['Enterprise', 'Security', 'Biometrics'],
+      demoUrl: 'https://shiny-churros-e06b39.netlify.app/',
+      imageUrl: 'https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      icon: <FileText size={20} />,
+      segments: ['core'],
+      isNew: true,
+      featured: true,
+      dateAdded: '19-3-25',
+    },
   ];
 
   const [localDemos, setLocalDemos] = useState(demos);
