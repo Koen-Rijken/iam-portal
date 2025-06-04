@@ -90,10 +90,12 @@ const HomePage: React.FC = () => {
                       <p className="text-center text-sm text-gray-600 dark:text-gray-400">
                         Scan the QR code with your phone to try passwordless login
                       </p>
-                      <Button className="w-full">
-                        <Scan className="mr-2 h-5 w-5" />
-                        Start Demo
-                      </Button>
+                      <Link to="/demos">
+                        <Button className="w-full">
+                          <Scan className="mr-2 h-5 w-5" />
+                          Start Demo
+                        </Button>
+                      </Link>
                     </div>
                   </div>
                 </div>
