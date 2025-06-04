@@ -115,7 +115,7 @@ const HomePage: React.FC = () => {
             </p>
           </div>
 
-          <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-5">
+          <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4 mx-auto max-w-4xl">
             {/* Ease of Use */}
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
@@ -163,7 +163,6 @@ const HomePage: React.FC = () => {
                 </p>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
