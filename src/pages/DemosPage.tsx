@@ -16,7 +16,7 @@ export const DemosPage: React.FC = () => {
       title: 'Your First I-AM Authentication',
       description: "Experience a true passwordless authentication process. Since you requested Demo Access you are authorised to access the application.",
       tags: ['Enterprise', 'Security', 'Collaboration'],
-      demoUrl: 'https://thunderous-muffin-7a2ec1.netlify.app/',
+      demoUrl: 'https://iam-login.netlify.app/',
       imageUrl: '/images/Screenshot 2025-06-03 at 17.50.17.png',
       icon: <FileText size={20} />,
       segments: ['core'],
