@@ -58,7 +58,7 @@ const HomePage: React.FC = () => {
                   </Link>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <a href="https://github.com/iam-project" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/iam-auth" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="lg" className="w-full">
                       <Github className="mr-2 h-5 w-5" />
                       Star on GitHub
