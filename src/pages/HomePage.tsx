@@ -229,10 +229,10 @@ const HomePage: React.FC = () => {
                       </span>
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-gray-900 dark:text-white tracking-tight">
-                      Zero Database
+                      AI DEVELOPMENT
                     </h3>
                     <p className="mt-5 text-base text-gray-500 dark:text-gray-400">
-                      No passwords or credentials to store. Reduce attack surface and compliance scope.
+                      Smart development tools, powered by AI.
                     </p>
                   </div>
                 </div>
