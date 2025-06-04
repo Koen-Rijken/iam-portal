@@ -39,10 +39,10 @@ export const DemosPage: React.FC = () => {
     },
     {
       id: 3,
-      title: 'I-AM Authentication with USer Management',
+      title: 'I-AM Authentication with User Management',
       description: "Delegate user management to a member in the team. Regardless inside or outside your organisation",
       tags: ['Enterprise', 'Security', 'Biometrics'],
-      demoUrl: 'https://shiny-churros-e06b39.netlify.app/',
+      demoUrl: 'https://endearing-quokka-0389d7.netlify.app/',
       imageUrl: '/images/Screenshot 2025-06-04 at 15.26.34.png',
       icon: <FileText size={20} />,
       segments: ['core'],
