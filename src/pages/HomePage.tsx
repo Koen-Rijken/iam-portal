@@ -265,7 +265,7 @@ const HomePage: React.FC = () => {
                       </span>
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-gray-900 dark:text-white tracking-tight">
-                      Enterprise Ready
+                      ENTERPRISE READY
                     </h3>
                     <p className="mt-5 text-base text-gray-500 dark:text-gray-400">
                       SSO, audit logs, and advanced security controls built-in.
@@ -283,7 +283,7 @@ const HomePage: React.FC = () => {
                       </span>
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-gray-900 dark:text-white tracking-tight">
-                      Enterprise Ready
+                      ENTERPRISE READY
                     </h3>
                     <p className="mt-5 text-base text-gray-500 dark:text-gray-400">
                       SSO, audit logs, and advanced security controls built-in.
