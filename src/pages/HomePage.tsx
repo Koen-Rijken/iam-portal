@@ -119,7 +119,7 @@ const HomePage: React.FC = () => {
             {/* Ease of Use */}
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <div className="relative bg-white dark:bg-gray-800 px-5 py-6 rounded-lg leading-none flex items-center justify-center flex-col">
+              <div className="relative bg-white dark:bg-gray-800 px-8 py-8 rounded-lg leading-none flex items-center justify-center flex-col">
                 <Zap className="h-8 w-8 text-blue-600 dark:text-blue-400 mb-4" />
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">EASE OF USE</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm text-center">
@@ -131,7 +131,7 @@ const HomePage: React.FC = () => {
             {/* Privacy & Trust */}
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <div className="relative bg-white dark:bg-gray-800 px-5 py-6 rounded-lg leading-none flex items-center justify-center flex-col">
+              <div className="relative bg-white dark:bg-gray-800 px-8 py-8 rounded-lg leading-none flex items-center justify-center flex-col">
                 <Heart className="h-8 w-8 text-blue-600 dark:text-blue-400 mb-4" />
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">PRIVACY & TRUST</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm text-center">
@@ -143,7 +143,7 @@ const HomePage: React.FC = () => {
             {/* High Secure */}
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <div className="relative bg-white dark:bg-gray-800 px-5 py-6 rounded-lg leading-none flex items-center justify-center flex-col">
+              <div className="relative bg-white dark:bg-gray-800 px-8 py-8 rounded-lg leading-none flex items-center justify-center flex-col">
                 <Shield className="h-8 w-8 text-blue-600 dark:text-blue-400 mb-4" />
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">HIGH SECURE</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm text-center">
@@ -155,7 +155,7 @@ const HomePage: React.FC = () => {
             {/* Open Standards */}
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <div className="relative bg-white dark:bg-gray-800 px-5 py-6 rounded-lg leading-none flex items-center justify-center flex-col">
+              <div className="relative bg-white dark:bg-gray-800 px-8 py-8 rounded-lg leading-none flex items-center justify-center flex-col">
                 <BookOpen className="h-8 w-8 text-blue-600 dark:text-blue-400 mb-4" />
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">OPEN STANDARDS</h3>
                 <p className="text-gray-500 dark:text-gray-400 text-sm text-center">
