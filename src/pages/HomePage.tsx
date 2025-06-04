@@ -211,10 +211,10 @@ const HomePage: React.FC = () => {
                       </span>
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-gray-900 dark:text-white tracking-tight">
-                      Edge Ready
+                      CONNECTIVITY
                     </h3>
                     <p className="mt-5 text-base text-gray-500 dark:text-gray-400">
-                      Deploy globally with ultra-low latency authentication at the edge.
+                      Comprehensive SDKs and APIs for seamless integration.
                     </p>
                   </div>
                 </div>
