@@ -199,13 +199,6 @@ export const DemosPage: React.FC = () => {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {demos.map((demo) => (
             <div key={demo.id} className="flex flex-col bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden relative">
-              {demo.dateAdded && (
-                <div className="absolute top-0 left-0 z-10 overflow-hidden h-28 w-28">
-                  <div className="absolute top-[30px] left-[-55px] w-[180px] transform -rotate-45 bg-red-600 text-white text-center py-1 text-xs font-bold shadow-md">
-                    Added: {demo.dateAdded}
-                  </div>
-                </div>
-              )}
               <div className="h-48 overflow-hidden">
                 <img 
                   src={demo.imageUrl} 
