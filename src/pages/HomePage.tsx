@@ -247,10 +247,10 @@ const HomePage: React.FC = () => {
                       </span>
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-gray-900 dark:text-white tracking-tight">
-                      Framework Agnostic
+                      PRIVACY
                     </h3>
                     <p className="mt-5 text-base text-gray-500 dark:text-gray-400">
-                      Use with any tech stack. Native SDKs for popular frameworks.
+                      Your data stays private with end-to-end encryption and zero-knowledge architecture.
                     </p>
                   </div>
                 </div>
