@@ -17,7 +17,7 @@ export const DemosPage: React.FC = () => {
       description: "Experience a true passwordless authentication process. Since you requested Demo Access you are authorised to access the application.",
       tags: ['Enterprise', 'Security', 'Collaboration'],
       demoUrl: 'https://thunderous-muffin-7a2ec1.netlify.app/',
-      imageUrl: 'https://images.unsplash.com/photo-1633265486064-086b219458ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      imageUrl: '/images/Screenshot 2025-06-03 at 17.50.17.png',
       icon: <FileText size={20} />,
       segments: ['core'],
       isNew: true,
