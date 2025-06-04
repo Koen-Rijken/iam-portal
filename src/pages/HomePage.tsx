@@ -273,6 +273,24 @@ const HomePage: React.FC = () => {
                   </div>
                 </div>
               </div>
+
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 dark:bg-gray-900 rounded-lg px-6 pb-8">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center p-3 bg-blue-600 dark:bg-blue-500 rounded-md shadow-lg">
+                        <Shield className="h-6 w-6 text-white" />
+                      </span>
+                    </div>
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 dark:text-white tracking-tight">
+                      Enterprise Ready
+                    </h3>
+                    <p className="mt-5 text-base text-gray-500 dark:text-gray-400">
+                      SSO, audit logs, and advanced security controls built-in.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
