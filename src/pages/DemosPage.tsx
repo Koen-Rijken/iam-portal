@@ -43,7 +43,7 @@ export const DemosPage: React.FC = () => {
       description: "Delegate user management to a member in the team. Regardless inside or outside your organisation",
       tags: ['Enterprise', 'Security', 'Biometrics'],
       demoUrl: 'https://shiny-churros-e06b39.netlify.app/',
-      imageUrl: 'https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      imageUrl: '/images/Screenshot 2025-06-04 at 15.26.34.png',
       icon: <FileText size={20} />,
       segments: ['core'],
       isNew: true,
