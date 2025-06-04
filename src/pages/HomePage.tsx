@@ -52,7 +52,7 @@ const HomePage: React.FC = () => {
               <div className="mt-8 sm:flex sm:justify-start">
                 <div className="rounded-md shadow">
                   <Link to="/demos">
-                    <Button size="lg" className="w-full">
+                    <Button size="lg" className="w-full bg-black hover:bg-gray-900">
                       Try Live Demo <ArrowRight className="ml-2 h-5 w-5" />
                     </Button>
                   </Link>
