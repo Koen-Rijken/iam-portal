@@ -11,7 +11,7 @@ export const DemosPage: React.FC = () => {
     {
       id: 1,
       title: 'Your First I-AM Authentication',
-      description: "Experience a true passwordless authentication process. Since you requested Demo Access you are authorised to access the application.",
+      description: "Experience a true passwordless authentication process. Who can access the appliaction is defined in the I-AM Managemet Console.",
       tags: ['Passwordless', 'Authentication'],
       demoUrl: 'https://iam-login.netlify.app/',
       imageUrl: '/images/Screenshot 2025-06-03 at 17.50.17.png',
@@ -24,7 +24,7 @@ export const DemosPage: React.FC = () => {
     {
       id: 2,
       title: 'Registration and Authentication',
-      description: "Experience a true passwordless authentication process. Since you requested Demo Access you are authorised to access the application.",
+      description: "Let users register themselves to access the application.",
       tags: ['Passwordless', 'Authentication', 'Registration'],
       demoUrl: 'https://iam-self-registration.netlify.app/',
       imageUrl: '/images/Screenshot 2025-06-03 at 17.51.14.png',
@@ -36,7 +36,7 @@ export const DemosPage: React.FC = () => {
     },
     {
       id: 3,
-      title: 'I-AM Authentication with User Management',
+      title: 'User Management and Authentication',
       description: "Delegate user management to a member in the team. Regardless inside or outside your organisation",
       tags: ['Passwordless', 'Authentication', 'User Management'],
       demoUrl: 'https://iam-user-management.netlify.app/',
