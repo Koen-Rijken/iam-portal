@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Moon, Sun, Github, Menu, X } from 'lucide-react';
+import { Moon, Sun, Github, Menu, X, Settings } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { cn } from '../lib/utils';
 import { Logo } from './Logo';
@@ -45,6 +45,13 @@ export const Navbar: React.FC = () => {
             </div>
           </div>
           <div className="flex items-center space-x-6">
+            <Link
+              to="/hub"
+              className="p-2 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
+              title="Management Console"
+            >
+              <Settings size={24} />
+            </Link>
             <a
               href="https://github.com/iam-auth"
               target="_blank"
