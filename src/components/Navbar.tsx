@@ -45,6 +45,15 @@ export const Navbar: React.FC = () => {
           </div>
           <div className="flex items-center space-x-6">
             <a
+              href="https://console.i-am.technology/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
+              title="Management Console"
+            >
+              <Settings size={24} />
+            </a>
+            <a
               href="https://github.com/iam-auth"
               target="_blank"
               rel="noopener noreferrer"
