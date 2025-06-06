@@ -17,9 +17,6 @@ export const DemosPage: React.FC = () => {
       imageUrl: '/images/Screenshot 2025-06-03 at 17.50.17.png',
       icon: <FileText size={20} />,
       segments: ['core'],
-      isNew: true,
-      featured: true,
-      dateAdded: '19-3-25',
     },
     {
       id: 2,
@@ -30,9 +27,6 @@ export const DemosPage: React.FC = () => {
       imageUrl: '/images/Screenshot 2025-06-03 at 17.51.14.png',
       icon: <FileText size={20} />,
       segments: ['core'],
-      isNew: true,
-      featured: true,
-      dateAdded: '19-3-25',
     },
     {
       id: 3,
@@ -43,9 +37,6 @@ export const DemosPage: React.FC = () => {
       imageUrl: '/images/Screenshot 2025-06-04 at 15.26.34.png',
       icon: <FileText size={20} />,
       segments: ['core'],
-      isNew: true,
-      featured: true,
-      dateAdded: '19-3-25',
     },
   ];
 
