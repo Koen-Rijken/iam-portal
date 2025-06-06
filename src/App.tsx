@@ -15,7 +15,6 @@ import { PricingPage } from './pages/PricingPage';
 import { BlogPage } from './pages/BlogPage';
 import { BlogPostPage } from './pages/BlogPostPage';
 import { CRMPage } from './pages/CRMPage';
-import { HubPage } from './pages/HubPage';
 
 function App() {
   return (
@@ -37,7 +36,6 @@ function App() {
               <Route path="/blog/:id" element={<BlogPostPage />} />
               <Route path="/pricing" element={<PricingPage />} />
               <Route path="/crm" element={<CRMPage />} />
-              <Route path="/hub" element={<HubPage />} />
             </Routes>
           </main>
           <Footer />

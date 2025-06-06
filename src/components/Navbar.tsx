@@ -15,8 +15,7 @@ export const Navbar: React.FC = () => {
     { name: 'Demos', path: '/demos' },
     { name: 'Guides', path: '/guides' },
     { name: 'Docs', path: '/docs' },
-    { name: 'API', path: '/api' },
-    { name: 'Hub', path: '/hub' }
+    { name: 'API', path: '/api' }
   ];
 
   return (
@@ -45,13 +44,6 @@ export const Navbar: React.FC = () => {
             </div>
           </div>
           <div className="flex items-center space-x-6">
-            <Link
-              to="/hub"
-              className="p-2 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
-              title="Management Console"
-            >
-              <Settings size={24} />
-            </Link>
             <a
               href="https://github.com/iam-auth"
               target="_blank"
