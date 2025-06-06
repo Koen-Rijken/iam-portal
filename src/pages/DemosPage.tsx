@@ -4,11 +4,8 @@ import { Input } from '../components/Input';
 import { Button } from '../components/Button';
 import { cn } from '../lib/utils';
 import { DemoRequestPopup } from '../components/DemoRequestPopup';
-import { useAuth } from '../context/AuthContext';
 
 export const DemosPage: React.FC = () => {
-  const { user } = useAuth();
-
   const demos = [
     // 1. Secure Document Sharing
     {

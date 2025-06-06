@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Plus, Trash2, Edit2, Check, X, Shield, User, UserPlus, UserMinus, Filter, BarChart2, Users as UsersIcon, Settings, Layout, CreditCard, Activity, ChevronRight, MoreHorizontal, Info, FileText, Wallet, Sliders, DollarSign, ArrowUp, ArrowDown, Clock, Calendar } from 'lucide-react';
+import { Search, Plus, Trash2, BarChart2, Users as UsersIcon, Settings, Layout, CreditCard, Activity, ChevronRight, MoreHorizontal, DollarSign, ArrowUp, ArrowDown, Clock, UserPlus, Filter } from 'lucide-react';
 import { Button } from '../components/Button';
 import { Input } from '../components/Input';
 import { cn } from '../lib/utils';

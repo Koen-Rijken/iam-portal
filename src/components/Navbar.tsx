@@ -1,52 +1,24 @@
 import React from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Moon, Sun, Github, Menu, X, User, ChevronDown, Building2, LayoutGrid } from 'lucide-react';
+import { Moon, Sun, Github, Menu, X } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
-import { useAuth } from '../context/AuthContext';
 import { cn } from '../lib/utils';
 import { Logo } from './Logo';
-import { Button } from './Button';
-import { LoginPopup } from './LoginPopup';
 
 export const Navbar: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
-  const { user, signOut } = useAuth();
   const location = useLocation();
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const [isUserMenuOpen, setIsUserMenuOpen] = React.useState(false);
-  const [showLoginPopup, setShowLoginPopup] = React.useState(false);
 
-  const publicLinks = [
+  const navLinks = [
     { name: 'Demos', path: '/demos' },
     { name: 'Guides', path: '/guides' },
     { name: 'Docs', path: '/docs' },
-    { name: 'API', path: '/api' }
+    { name: 'API', path: '/api' },
+    { name: 'CRM', path: '/crm' },
+    { name: 'Hub', path: '/hub' }
   ];
-
-  const getAuthenticatedLinks = (role?: string) => {
-    const links = [{ name: 'Hub', path: '/hub' }];
-    if (role === 'Admin') {
-      links.push({ name: 'CRM', path: '/crm' });
-    }
-    return links;
-  };
-
-  const getNavLinks = () => {
-    if (user) {
-      return [...publicLinks, ...getAuthenticatedLinks(user.role)];
-    }
-    return publicLinks;
-  };
-
-  const handleSignIn = () => {
-    setShowLoginPopup(true);
-  };
-
-  const handleMenuItemClick = (path: string) => {
-    navigate(path);
-    setIsUserMenuOpen(false);
-  };
 
   return (
     <nav className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
@@ -57,7 +29,7 @@ export const Navbar: React.FC = () => {
               <Logo />
             </Link>
             <div className="hidden md:ml-8 md:flex md:space-x-8">
-              {getNavLinks().map((link) => (
+              {navLinks.map((link) => (
                 <Link
                   key={link.path}
                   to={link.path}
@@ -88,48 +60,6 @@ export const Navbar: React.FC = () => {
             >
               {theme === 'dark' ? <Sun size={24} /> : <Moon size={24} />}
             </button>
-            {user ? (
-              <div className="relative">
-                <button
-                  onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
-                  className="flex items-center space-x-2 p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
-                >
-                  <User size={24} className="text-gray-500 dark:text-gray-400" />
-                  <span className="text-gray-700 dark:text-gray-300">{user.email}</span>
-                  <ChevronDown className="h-4 w-4 text-gray-500 dark:text-gray-400" />
-                </button>
-                {isUserMenuOpen && (
-                  <div className="absolute right-0 mt-2 w-56 bg-white dark:bg-gray-800 rounded-md shadow-lg py-1">
-                    <div className="px-4 py-2 text-sm text-gray-500 dark:text-gray-400 border-b border-gray-200 dark:border-gray-700">
-                      {user.role} Account
-                    </div>
-                    {getAuthenticatedLinks(user.role).map((link) => (
-                      <button
-                        key={link.path}
-                        onClick={() => handleMenuItemClick(link.path)}
-                        className="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
-                      >
-                        {link.name}
-                      </button>
-                    ))}
-                    <div className="border-t border-gray-200 dark:border-gray-700"></div>
-                    <button
-                      onClick={() => {
-                        signOut();
-                        setIsUserMenuOpen(false);
-                      }}
-                      className="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
-                    >
-                      Sign Out
-                    </button>
-                  </div>
-                )}
-              </div>
-            ) : (
-              <Button onClick={handleSignIn}>
-                Sign In
-              </Button>
-            )}
             <div className="flex md:hidden">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -146,7 +76,7 @@ export const Navbar: React.FC = () => {
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="pt-2 pb-3 space-y-1">
-            {getNavLinks().map((link) => (
+            {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
@@ -164,13 +94,6 @@ export const Navbar: React.FC = () => {
           </div>
         </div>
       )}
-
-      {/* Login Popup */}
-      <LoginPopup
-        isOpen={showLoginPopup}
-        onClose={() => setShowLoginPopup(false)}
-        demoTitle="I-AM"
-      />
     </nav>
   );
 };
