@@ -23,7 +23,7 @@ export const DemosPage: React.FC = () => {
     },
     {
       id: 2,
-      title: 'I-AM Authentication with Self Registration',
+      title: 'Registration and Authentication',
       description: "Experience a true passwordless authentication process. Since you requested Demo Access you are authorised to access the application.",
       tags: ['Passwordless', 'Authentication', 'Registration'],
       demoUrl: 'https://iam-self-registration.netlify.app/',
