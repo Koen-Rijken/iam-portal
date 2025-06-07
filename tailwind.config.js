@@ -6,9 +6,9 @@ export default {
     extend: {
       colors: {
         blue: {
-          50: '#f5f3ff',
-          100: '#ede9fe',
-          200: '#ddd6fe',
+          50: '#2DD4BF',
+          100: '#2DD4BF',
+          200: '#2DD4BF',
           300: '#2DD4BF',
           
           400: '#2DD4BF',  
