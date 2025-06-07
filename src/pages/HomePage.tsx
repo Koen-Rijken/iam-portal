@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         {/* Background gradient effect */}
-        <div className="absolute inset-0 bg-gradient-to-br from-black to-[#2DD4BF]" />
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 to-gray-700" />
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
